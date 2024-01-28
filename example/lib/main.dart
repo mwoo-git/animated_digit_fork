@@ -25,7 +25,7 @@ class _AnimatedDigitWidgetExampleState extends State<AnimatedDigitWidgetExample>
   @override
   void initState() {
     super.initState();
-    textscaleFactor = MediaQuery.textScaleFactorOf(context);
+    // textscaleFactor = MediaQuery.textScaleFactorOf(context);
   }
 
   @override

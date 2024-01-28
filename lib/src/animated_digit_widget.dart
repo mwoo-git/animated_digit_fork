@@ -647,7 +647,7 @@ class _AnimatedDigitWidgetState extends State<AnimatedDigitWidget>
     return Row(
       mainAxisSize: MainAxisSize.min,
       mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (widget.prefix != null) _buildChangeTextColorWidget(widget.prefix!),
         _buildNegativeSymbol(),
